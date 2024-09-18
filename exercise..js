@@ -30,3 +30,11 @@ function concatString(str1,str2){
 }
 console.log(concatString("Hello,", "krish"));
 //6th sum
+
+
+
+let cart = ["Laptop", "Mouse"]; 
+cart.unshift("Monitor"); 
+console.log(cart);
+cart.shift(); 
+console.log(cart);
